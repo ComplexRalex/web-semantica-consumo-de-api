@@ -1,0 +1,39 @@
+
+.container {
+    padding-inline: 1rem;
+}
+
+table {
+    table-layout: fixed;
+}
+
+nav .avatar {
+    filter: contrast(0%) brightness(2);
+    width: 30px;
+}
+
+p {
+    font-size: 16px;
+}
+
+th, td {
+    min-width: 80%;
+    padding-inline: 15px;
+    overflow-wrap: break-word;
+}
+
+th {
+    background-color: #cacaca;
+}
+
+nav, button, a.btn-floating {
+    background-color: #00385E !important;
+}
+ 
+th:nth-child(1), td:nth-child(1) {
+    width: 8%;
+}
+
+th:nth-child(5), td:nth-child(5) {
+    width: 335px;
+}
