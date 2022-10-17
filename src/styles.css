@@ -41,14 +41,3 @@ button,
 a.btn-floating {
     background-color: #00385E !important;
 }
-
-th:nth-child(1),
-td:nth-child(1) {
-    /* width: 8%; */
-    min-width: 50px;
-}
-
-th:nth-child(5),
-td:nth-child(5) {
-    /* width: 335px; */
-}
