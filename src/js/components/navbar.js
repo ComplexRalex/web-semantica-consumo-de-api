@@ -6,7 +6,7 @@ const createNavbar = () => {
         <div class="nav-wrapper container">
             <a href="#" class="brand-logo">
                 <img class="avatar" src="${img}" />
-                Alejandro Batres
+                <span id="page-title">Alejandro Batres</span>
             </a>
         </div>
     `;

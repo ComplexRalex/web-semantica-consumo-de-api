@@ -2,22 +2,24 @@ import { get } from "../../requests";
 import { createRow } from "./row";
 
 const createTable = () => {
-    const table = document.createElement('table');
-    table.className = 'highlight striped';
-    table.innerHTML = `
-        <thead>
-            <th>ID</th>
-            <th>Nombre</th>
-            <th>Apellido</th>
-            <th>Teléfono</th>
-            <th>Opciones</th>
-        </thead>
-        <tbody id="usuarios">
-            <!-- Aquí deberían estar los usuarios -->
-        </tbody>
+    const div = document.createElement('div');
+    div.id = 'table-container';
+    div.innerHTML = `
+        <table class="highlight striped">
+            <thead>
+                <th>ID</th>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Teléfono</th>
+                <th>Opciones</th>
+            </thead>
+            <tbody id="usuarios">
+                <!-- Aquí deberían estar los usuarios -->
+            </tbody>
+        </table>
     `;
 
-    return table;
+    return div;
 }
 
 const insertRow = (row) => {
